@@ -10,41 +10,29 @@ const Navbar = () => {
           <img
             src="/favicon.png"
             alt="Josh logo"
-            className="h-8 w-8 object-contain"
+            className="h-12 w-12 object-contain"
           />
         </div>
 
         {/* Right: Navigation Links */}
         <ul className="flex space-x-8 font-medium text-slate-700">
           <li>
-            <a
-              href="#about"
-              className="transition-colors hover:text-teal-600"
-            >
+            <a href="#about" className="transition-colors hover:text-teal-600">
               About
             </a>
           </li>
           <li>
-            <a
-              href="#work"
-              className="transition-colors hover:text-teal-600"
-            >
+            <a href="#work" className="transition-colors hover:text-teal-600">
               Work
             </a>
           </li>
           <li>
-            <a
-              href="#skills"
-              className="transition-colors hover:text-teal-600"
-            >
+            <a href="#skills" className="transition-colors hover:text-teal-600">
               Skills
             </a>
           </li>
           <li>
-            <a
-              href="#contact"
-              className="transition-colors hover:text-teal-600"
-            >
+            <a href="#contact" className="transition-colors hover:text-teal-600">
               Contact
             </a>
           </li>
